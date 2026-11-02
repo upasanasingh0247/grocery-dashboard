@@ -1,0 +1,13 @@
+# Ignore all data files (Raw, Clean, and SQLite Databases)
+data/
+*.db
+*.sqlite
+
+# Ignore all outputs and logs
+exports/
+logs/
+
+# Ignore security keys and virtual environments
+.env
+kaggle.json
+__pycache__/
